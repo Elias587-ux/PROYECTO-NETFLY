@@ -19,3 +19,11 @@ const prueba = (callbacks) =>{
 
 //prueba(texto1)
 console.warn('// ! Callbacks');
+
+const btnClick = document.querySelector('btn-click')
+
+console.log(btnClick);
+
+btnClick.addEventListener('click', function(){
+  console.log('Hicieron click');
+})
